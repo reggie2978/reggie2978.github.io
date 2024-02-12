@@ -111,7 +111,7 @@ body {
 }
 .flower__leafs {
   position: relative;
-  animation: blooming-flower 2s backwards;
+  animation: blooming-flower 2s backwards; #6bf0ff
 }
 .flower__leafs--1 {
   animation-delay: 1.1s;
@@ -691,7 +691,7 @@ body {
   left: 6vmin;
   top: -2vmin;
   transform: rotate(25deg) rotateY(-180deg);
-  animation: flower__g-fr-leaft-ans-6 0.5s 4.6s linear backwa: ;rds;
+  animation: flower__g-fr-leaft-ans-6 0.5s 4.6s linear backwards;
 }
 .flower__g-fr__leaf--5 {
   left: 10vmin;
@@ -996,3 +996,37 @@ h1,p{
   color: skyblue;
   font-size: 200px;
 }
+
+.heart {
+    position: relative;
+    width: 1000px; /* Adjust as needed */
+    height: 1200px; /* Adjust as needed */
+    margin: 0 auto;
+}
+
+.heart img {
+    position: absolute; /* Position the image absolutely */
+    top: -50px; /* Position from the top (adjust as needed) */
+    left: -700px; /* Position from the left (adjust as needed) */
+    width: 1500px; /* Width of the image (adjust to match the heart width minus the border) */
+    height: 1600px; /* Height of the image (adjust to match the heart height minus the border) */
+    clip-path: url(#heartMask); /* Apply heart shape mask */
+    z-index: 1; /* Set the stacking order */
+    filter: drop-shadow(0 0 10px cyan); /* Apply glowing effect */
+    border: 200px solid  cyan; /* Add a border with cyan color */
+    border-style: groove;
+}
+.container {
+    position: fixed;
+    left: -200px; /* Adjust the distance from the left side of the screen as needed */
+    top: 1000%; /* Align the container vertically in the middle of the screen */
+    transform: translateY(-100%); /* Adjust to vertically center the container */
+}
+
+h1 {
+    margin: 0; /* Remove default margins */
+    font-size: 100px;
+    color: rgba(0, 255, 255, 0.5); /* Adjust the opacity value (0.5 in this case) */
+}
+
+
