@@ -1009,11 +1009,11 @@ h1,p{
     top: -50px; /* Position from the top (adjust as needed) */
     left: -700px; /* Position from the left (adjust as needed) */
     width: 1500px; /* Width of the image (adjust to match the heart width minus the border) */
-    height: 1600px; /* Height of the image (adjust to match the heart height minus the border) */
+    height: 1700px; /* Height of the image (adjust to match the heart height minus the border) */
     clip-path: url(#heartMask); /* Apply heart shape mask */
     z-index: 1; /* Set the stacking order */
     filter: drop-shadow(0 0 10px cyan); /* Apply glowing effect */
-    border: 200px solid  cyan; /* Add a border with cyan color */
+    border: 400px solid  cyan; /* Add a border with cyan color */
     border-style: groove;
 }
 .container {
