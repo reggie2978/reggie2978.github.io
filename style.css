@@ -1006,10 +1006,10 @@ h1,p{
 
 .heart img {
     position: absolute; /* Position the image absolutely */
-    top: 1000px; /* Position from the top (adjust as needed) */
-    left: 70px; /* Position from the left (adjust as needed) */
+    top: 700px; /* Position from the top (adjust as needed) */
+    left: 90px; /* Position from the left (adjust as needed) */
     width: 1500px; /* Width of the image (adjust to match the heart width minus the border) */
-    height: 2000px; /* Height of the image (adjust to match the heart height minus the border) */
+    height: 1800px; /* Height of the image (adjust to match the heart height minus the border) */
     clip-path: url(#heartMask); /* Apply heart shape mask */
     z-index: 1; /* Set the stacking order */
     filter: drop-shadow(0 0 10px cyan); /* Apply glowing effect */
