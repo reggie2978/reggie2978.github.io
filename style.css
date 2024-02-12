@@ -1006,26 +1006,26 @@ h1,p{
 
 .heart img {
     position: absolute; /* Position the image absolutely */
-    top: -50px; /* Position from the top (adjust as needed) */
-    left: -700px; /* Position from the left (adjust as needed) */
-    width: 1500px; /* Width of the image (adjust to match the heart width minus the border) */
-    height: 1700px; /* Height of the image (adjust to match the heart height minus the border) */
+    top: 800px; /* Position from the top (adjust as needed) */
+    left: 70px; /* Position from the left (adjust as needed) */
+    width: 300px; /* Width of the image (adjust to match the heart width minus the border) */
+    height: 300px; /* Height of the image (adjust to match the heart height minus the border) */
     clip-path: url(#heartMask); /* Apply heart shape mask */
     z-index: 1; /* Set the stacking order */
     filter: drop-shadow(0 0 10px cyan); /* Apply glowing effect */
-    border: 400px solid  cyan; /* Add a border with cyan color */
+    border: 30px solid  cyan; /* Add a border with cyan color */
     border-style: groove;
 }
 .container {
     position: fixed;
-    left: -200px; /* Adjust the distance from the left side of the screen as needed */
-    top: 1000%; /* Align the container vertically in the middle of the screen */
+    left: -50px; /* Adjust the distance from the left side of the screen as needed */
+    top: 100%; /* Align the container vertically in the middle of the screen */
     transform: translateY(-100%); /* Adjust to vertically center the container */
 }
 
 h1 {
     margin: 0; /* Remove default margins */
-    font-size: 100px;
+    font-size: 40px;
     color: rgba(0, 255, 255, 0.5); /* Adjust the opacity value (0.5 in this case) */
 }
 
